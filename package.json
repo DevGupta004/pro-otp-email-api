@@ -1,0 +1,18 @@
+{
+  "name": "pro-otp-email-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for sending otp on mail id using sendgrid email services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dev Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.1",
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.11",
+    "nodemon": "^3.1.0"
+  }
+}
