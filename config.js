@@ -1,4 +1,4 @@
 // config.js
 module.exports = {
-    sendGridApiKey: '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'
+    sendGridApiKey: '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'
 };
