@@ -19,7 +19,9 @@ router.post('/', (req, res) => {
     sgMail.send(msg)
         .then(() => {
             res.status(200).json({
-                message: 'OTP sent successfully'
+                message: 'OTP sent successfully',
+                email: req.body.email,
+                OTP: otp
             });
         })
         .catch(error => {
